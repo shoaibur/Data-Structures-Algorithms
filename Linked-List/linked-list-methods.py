@@ -96,4 +96,15 @@ class LinkedList:
             tail = tail.next
         return length
     
-    # To python list
+    # To python list: convert linked list to a python list
+    # time: O(n), space: O(n)
+    def to_python_list(self):
+        if self.head is None:
+            return []
+        plist = []
+        tail = self.head
+        while tail.next:
+            plist.append(tail.value)
+            tail = tail.next
+        plist.append(tail.value)
+        return plist
