@@ -34,13 +34,13 @@ class LinkedList:
     # time: O(n), space: O(1)
     def search(self, value):
         if self.head is None:
-            return None
+            return
         tail = self.head
         while tail:
             if tail.next.value == value:
                 return tail
             tail = tail.next
-        return None
+        return
     
     # Remove: remove first occurence of a 'value'
     # time: O(n), space: O(1)
@@ -59,12 +59,30 @@ class LinkedList:
     # time: O(1), space: O(1)
     def pop(self):
         if self.head is None:
-            return None
+            return
         tail = self.head
         self.head = tail.next
         return tail.value
     
-    # Insert
+    # Insert: insert a 'value' at a given 'position'
+    # time: O(n), space: O(1)
+    def insert(self, value, position):
+        if self.head is None:
+            self.head = Node(value)
+            return
+        if position == 0:
+            self.prepend(value)
+            return
+        index = 0
+        tail = self.head
+        while tail and index <= position:
+            if index == position:
+                new_node = Node(value)
+                new_node.next = tail.next
+                tail.next = new_node
+                return
+        self.append(value)
+        return
     
     # Size
     
