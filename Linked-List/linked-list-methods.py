@@ -31,6 +31,7 @@ class LinkedList:
         return
     
     # Search: search for a 'value' and return the node
+    # time: O(n), space: O(1)
     def search(self, value):
         if self.head is None:
             return None
@@ -38,9 +39,21 @@ class LinkedList:
         while tail:
             if tail.next.value == value:
                 return tail
+            tail = tail.next
         return None
     
-    # Remove
+    # Remove: remove first occurence of a 'value'
+    # time: O(n), space: O(1)
+    def remove(self, value):
+        if self.head is None:
+            return
+        tail = self.head
+        while tail:
+            if tail.next.value == value:
+                tail.next = tail.next.next
+                return
+            tail = tail.next
+        return
     
     # Pop
     
