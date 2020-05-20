@@ -84,6 +84,16 @@ class LinkedList:
         self.append(value)
         return
     
-    # Size
+    # Size: return the length of the list
+    # time: O(n), space: O(1)
+    def size(self):
+        if self.head is None:
+            return 0
+        length = 1
+        tail = self.head
+        while tail.next:
+            length += 1
+            tail = tail.next
+        return length
     
     # To python list
