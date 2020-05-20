@@ -30,7 +30,15 @@ class LinkedList:
         self.head.next = tail
         return
     
-    # Search
+    # Search: search for a 'value' and return the node
+    def search(self, value):
+        if self.head is None:
+            return None
+        tail = self.head
+        while tail:
+            if tail.next.value == value:
+                return tail
+        return None
     
     # Remove
     
