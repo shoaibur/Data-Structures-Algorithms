@@ -103,8 +103,7 @@ class LinkedList:
             return []
         plist = []
         tail = self.head
-        while tail.next:
+        while tail:
             plist.append(tail.value)
             tail = tail.next
-        plist.append(tail.value)
         return plist
