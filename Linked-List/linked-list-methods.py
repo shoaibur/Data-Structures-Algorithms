@@ -55,7 +55,14 @@ class LinkedList:
             tail = tail.next
         return
     
-    # Pop
+    # Pop: return the value of the first node and remove the node from the list
+    # time: O(1), space: O(1)
+    def pop(self):
+        if self.head is None:
+            return None
+        tail = self.head
+        self.head = tail.next
+        return tail.value
     
     # Insert
     
