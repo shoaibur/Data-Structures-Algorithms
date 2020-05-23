@@ -1,4 +1,4 @@
-class Node:
+class Node(object):
     def __init__(self, value):
         self.value = value
         self.left = None
@@ -28,3 +28,9 @@ class Node:
     def has_right_child(self):
         return self.right not is None
     
+class Tree(object):
+    def __init__(self, value):
+        self.root = Node(value)
+    
+    def get_root(self):
+        return self.root
