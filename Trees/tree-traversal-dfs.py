@@ -9,7 +9,7 @@ tree.left = Node(2)
 tree.right = Node(3)
 tree.left.left = Node(4)
 
-# Traverse
+# DFS traverse: time O(2n-1) ~ O(n), space O(n)
 # Pre-order
 def pre_order(tree):
     out = []
