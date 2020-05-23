@@ -14,4 +14,4 @@ s.push(2)
 s.push(3)
 print(s.stack) # [1, 2, 3]
 s.pop()
-print(s.tack) # [1, 2]
+print(s.stack) # [1, 2]
