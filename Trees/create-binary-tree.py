@@ -16,3 +16,9 @@ class Node:
     def set_right_child(self, value):
         self.right = Node(value)
         
+    def get_left_child(self):
+        return self.left
+    
+    def get_right_child(self):
+        return self.right
+    
