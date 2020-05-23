@@ -22,3 +22,9 @@ class Node:
     def get_right_child(self):
         return self.right
     
+    def has_left_child(self):
+        return self.left not is None
+    
+    def has_right_child(self):
+        return self.right not is None
+    
