@@ -3,7 +3,7 @@ class Queue(object):
         self.queue = []
     
     def enq(self, value):
-        self.queue.append(value)
+        self.queue.insert(0,value)
       
     def deq(self):
         self.queue.pop()
