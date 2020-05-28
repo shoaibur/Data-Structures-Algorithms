@@ -24,11 +24,11 @@ def flipping_image(A): # Horizontal flip
     ncol = len(A[0])
     for i in range(nrow):
         for j in range(ncol):
-            A[i][j] = 1 - A[i][i] # Flip between 0 and 1.
+            A[i][j] = 1 - A[i][j] # Flip between 0 and 1.
     return transpose(A)
 
 def transpose(A):
-    A = list(zip(*A))
+    A = [*zip(*A)]
     A = [list(A[i]) for i in range(len(A))]
     return A
     
