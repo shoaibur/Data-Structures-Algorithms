@@ -6,9 +6,10 @@ def even_after_odd(nums):
         else: even.append(num)
     return odd + even
   
+# Even after odd from linked list
 def even_after_odd(head):
-    even = None
     odd = None
+    even = None
     tail = head
     while tail:
         if tail.value % 2:
@@ -21,5 +22,8 @@ def even_after_odd(head):
         tail = tail.next
     tail.next = even
     return odd
+# head = create_linked_list([1, 2, 3, 4, 5, 6])
+# head = even_after_odd(head)
+# traverse(head)
   
     
