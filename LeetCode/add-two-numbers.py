@@ -6,7 +6,7 @@
 # Problem 5: Two numbers are linked lists
 
 
-# Problem 2
+# Problem 2: Two numbers are integers/binary; add them without using arithmatic operators
 # summ = xor(x, y) = x^y
 # carry = and(x, y) then left shift = (x & y) << 1
 def add(x, y):
@@ -21,7 +21,8 @@ def add_numbers_string(s1, s2):
     if len(s2) == 0: return s1
     return str( int(s1) + int(s2) )
     
-# Problem 4
+# Problem 4: Two numbers are python lists
+# Solution 1 -- Add element-by-element
 def add(nums1, nums2):
     n1, n2 = len(nums1), len(nums2)
     if n1 > n2:
@@ -36,7 +37,7 @@ def add(nums1, nums2):
     if carry > 0:
         nums1 = [carry] + nums1
     return nums1
-
+# Solution 2 -- convert lists into integers and add them
 def add(nums1, nums2):
     nums1 = nums1[::-1]
     nums2 = nums2[::-1]
@@ -48,7 +49,7 @@ def add(nums1, nums2):
         int2 += num * 10**(i+1)
     return int1 + int2
 
-# Problem 5
+# Problem 5: Two numbers are linked lists
 # Solution 1 -- convert lls into integers, sum them and back the sum to the ll
 def add(nums1, nums2):
     # ll to int
