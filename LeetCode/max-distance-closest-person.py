@@ -19,44 +19,25 @@ def max_distance_closest_person(seats):
 
 
 def max_distance_closest_person(nums):
-    i, j = -1, -1
+    if sum(nums) == 1:
+            person = [i for i, num in enumerate(nums) if num == 1][0]
+            return max(person-0, len(nums) - 1 - person)
+    
+    i, j = None, None
+    max_dis = 0
+    dis = 0
     for k, num in enumerate(nums):
-        if num == 1 and i == -1:
+        if num == 1 and i is None:
             i = k
-        elif num == 1 and k == -1:
+            if i != 0:
+                dis = i
+        elif num == 1 and j is None:
             j = k
+            dis = (j - i) // 2
         elif num == 1:
             i, j = j, k
-        dis = j - i
-        if dis > max_dis:
-            max_dis = dis
-            index = (i + j) // 2
-    return index
-
-
-
-
-
-class Solution:
-    def maxDistToClosest(self, seats: List[int]) -> int:
-        if not seats: return
-        if all(seats): return
-        i, j = -1, -1
-        max_dis = 0
-        for k, num in enumerate(seats):
-            if num == 1 and i == -1:
-                i = k
-                if nums[0] == 0:
-                    max_dis = i
-                    index = 0
-            elif num == 1 and j == -1:
-                j = k
-            elif num == 1:
-                i, j = j, k
-            
-                dis = j - i
-                if dis > max_dis:
-                    max_dis = dis
-                    index = (i + j) // 2
-            
-        return index
+            dis = (j - i) // 2
+        elif k == len(nums) - 1 and j != k:
+            dis = k - j
+        max_dis = max(max_dis, dis)
+    return max_dis
