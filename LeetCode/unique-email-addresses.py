@@ -11,5 +11,8 @@ def unique_email_addresses(email):
                 d[email] = 1
         else:
             print('invalid email')
+    emails = []
     for email in d:
         print(email)
+        emails.append(email)
+    return emails
