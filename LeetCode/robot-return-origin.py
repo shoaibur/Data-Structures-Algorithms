@@ -6,7 +6,7 @@ def robot_return_origin(string):
     down = string.count('D')
     left = string.count('L')
     right = string.count('R')
+    # return up == down and left == right
     if up != down or left != right:
         return False
     return True
-    
