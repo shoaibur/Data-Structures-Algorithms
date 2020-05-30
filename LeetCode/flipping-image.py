@@ -29,6 +29,7 @@ def flipping_image(A): # Horizontal flip
 
 def transpose(A):
     A = [*zip(*A)]
-    A = [list(A[i]) for i in range(len(A))]
+    # A = [list(A[i]) for i in range(len(A))]
+    A = [ list(row) for row in A ]
     return A
     
