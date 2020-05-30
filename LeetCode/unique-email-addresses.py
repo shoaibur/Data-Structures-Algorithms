@@ -1,4 +1,4 @@
-def unique_email_addresses(email):
+def unique_email_addresses(emails):
     if len(emails) == 0: return None
     d = {}
     for email in emails:
