@@ -1,3 +1,4 @@
+# Using python list
 def even_after_odd(nums):
     even = []
     odd = []
@@ -6,7 +7,7 @@ def even_after_odd(nums):
         else: even.append(num)
     return odd + even
   
-# Even after odd from linked list
+# Using linked list
 def even_after_odd(head):
     odd = None
     even = None
