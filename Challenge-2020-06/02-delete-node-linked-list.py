@@ -8,8 +8,9 @@ def delete(node):
 # tail.value = 1    tail.value = 2    tail.value = 3    tail.value = 4    tail.value = 5
 # tail.next = {2}   tail.next = {3}   tail.next = {4}   tail.next = {5}   tail.next = None
 
-def delete_node(head, value):
+def delete(head, value): # Limitation: value cannot be the last node's value
     tail = head
+    # O(n), O(1)
     while tail:
         it tail.value == value:
             tail.value = tail.next.value
