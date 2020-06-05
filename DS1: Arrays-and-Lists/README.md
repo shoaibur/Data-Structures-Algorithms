@@ -22,5 +22,11 @@ Two basic type of arrays:
     * Retrieval: O(n)
     * Swap: O(n)
     * Reversal: O(n)
-    
-    
+  * Exercises
+    * Create a linked list
+    * Convert a python list to a linked list
+    * Traverse a linked list or convert a linked to a python list
+    * Write functions for: (i) search (ii) insert (iii) prepend (iv) append (v) delete
+    * Swap two nodes
+    * Reverse a linked list
+    * Add one to a linked list
