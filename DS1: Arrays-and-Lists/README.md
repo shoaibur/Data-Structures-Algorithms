@@ -1,8 +1,6 @@
 Two basic type of arrays:
-* Python Lists
-* Linked Lists
 
-* Python Lists
+1) Python Lists
   * plist = [3, 8, 2, 5, 1, 7, 9]
   * Runtime:
     * Search: O(n)
@@ -11,3 +9,9 @@ Two basic type of arrays:
     * Retrieval: O(1)
     * Swap: O(1)
     * Reversal: O(n)
+
+2) Linked Lists
+  * Each node mush have two methods:
+    * value: indicating the value at the node
+    * next: pointing to the next node
+    
