@@ -29,4 +29,11 @@ Two basic type of arrays:
     * Write functions for: (i) search (ii) insert (iii) prepend (iv) append (v) delete
     * Swap two nodes
     * Reverse a linked list
-    * Add one to a linked list
+
+Problems: Implement functions using python list and/or linked list:
+  * Add one to the list
+  * Rearrange elements such that all even numbers are after the odd numbers
+  * Find the duplicate number in the array
+  * Find a the maximum sum of a subarray in the array
+  * Compute the elements of pascal triangle at n-th row
+  * Given two integers i and j, keep every i values and then remove every j values and repeat the process for the entire array.
