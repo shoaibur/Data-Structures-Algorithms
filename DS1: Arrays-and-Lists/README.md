@@ -9,9 +9,18 @@ Two basic type of arrays:
     * Retrieval: O(1)
     * Swap: O(1)
     * Reversal: O(n)
+  * Space complexicity can be constant for each of the operations above.
 
 2) Linked Lists
   * Each node mush have two methods:
     * value: indicating the value at the node
     * next: pointing to the next node
+  * Runtime and Space
+    * Search
+    * Insert
+    * Delete
+    * Retrieval
+    * Swap
+    * Reversal
+    
     
