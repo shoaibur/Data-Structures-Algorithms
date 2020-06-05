@@ -15,12 +15,12 @@ Two basic type of arrays:
   * Each node mush have two methods:
     * value: indicating the value at the node
     * next: pointing to the next node
-  * Runtime and Space
-    * Search
-    * Insert
-    * Delete
-    * Retrieval
-    * Swap
-    * Reversal
+  * Runtime
+    * Search: O(n)
+    * Insert: O(n), prepend: O(1), append: O(n)
+    * Delete: O(n)
+    * Retrieval: O(n)
+    * Swap: O(n)
+    * Reversal: O(n)
     
     
