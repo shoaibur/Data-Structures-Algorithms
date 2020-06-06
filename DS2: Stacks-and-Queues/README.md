@@ -20,6 +20,7 @@
   * Queue class with push and pop operations
   * Implement queue using an array
   * Implement queue using a linked list
+  * Build a queue using stack
 
 
 # Practice problems
