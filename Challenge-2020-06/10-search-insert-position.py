@@ -13,6 +13,4 @@ def searchInsert(nums, target):
             high = mid - 1
         else:
             low = mid + 1
-    if target < nums[mid]:
-        return mid
     return low
