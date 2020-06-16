@@ -3,7 +3,7 @@ class GetMinStack:
         self.stack = []
         self.min = float('inf')
         
-    def push(self, value):
+    def push(self, value): # O(1), O(1)
         if len(self.stack) == 0:
             self.stack.append(value)
             self.min = value
@@ -13,7 +13,7 @@ class GetMinStack:
             self.stack.append(2*value-self.min)
             self.min = value
     
-    def pop(self):
+    def pop(self): # O(1), O(1)
         if len(self.stack) == 0:
             self.min = float('inf')
         else:
@@ -22,7 +22,7 @@ class GetMinStack:
                 self.min = 2*self.min - p
             return p
         
-    def getmin(self):
+    def getmin(self): # O(1), O(1)
         return self.min
 
 # Tests
