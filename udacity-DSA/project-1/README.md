@@ -17,24 +17,26 @@
   
 # Problem 3: Huffman Coding
 * Solution approach
-  * Dict --> heap --> tree map --> encode --> decode
+  * Used hash map for character count then a heap (priority queue) for merging lists into tree.
+  * Created Huffman encoding map prefixing 0/1 in the map. Do it recursively for the left and right half of the tree.
+  * Decode according to the bits (0/1) and their corresponding code.
 * Complexity
   * Time: For creating the dict, runtime is O(n), where n is the number of characters in the message. Each heappop/heappush for the priority queue requires O(log(p)) runtime, where p is the number of unique characters. So, for all unique characters in dict, runtime is O(p log(p)). However, total number of characters/punctuations/numbers is fixed in English languate, so this runtime may be considered constant. In such case, the runtime will be O(n+m), where n is the number of characters in the message for encoding, and m is the number of bits in the message to be decoded.
   * Space: With same argument as in time complexity, the space required for the dict may considered constant. So, space complexity will be O(n+m) for encoding and decoding.
   
 # Problem 4: Active Directory
 * Solution approach
-  * 
+  * Used recursion to search in the deeper groups.
 * Complexity
-  * Time: O(n)
-  * Space: 
+  * Time: Each of add and get operations run in constant time. However, to check if a user is in a certain group, we may need to check each user, so time complexity is O(n).
+  * Space: To store users, we need additional space, so space complexity is O(n).
   
 # Problem 5: Blockchain
 * Solution approach
-  * 
+  * Used linked list and kept track the previous and next pointers to the node from the current node.
 * Complexity
-  * Time: 
-  * Space: 
+  * Time: `append` function is in O(1), but `search` and `to_list` functions are in O(n).
+  * Space: Being a linked list, its space complexity is O(n)
   
 # Problem 6: Union and Intersection
 * Solution approach
