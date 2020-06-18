@@ -10,23 +10,23 @@
 
 # Problem 2: File Recursion
 * Solution approach
-  * Used os.listdir in a recursive way to find the files in a directory and it's sub-directories. If the files ends with the desired extension, print that, either the full path of the file or only the file name.
+  * Used os.listdir in a recursive way to find the files in a directory and it's sub-directories. If the files ends with the desired extension, print either the full path of the file or only the file name.
 * Complexity
   * Time: The program looks for all files in directory, so run time is O(n), where n is the total number of files.
   * Space: Ignoring space requiremnt for printing, the program does not require any additional space, so it is O(1).
   
 # Problem 3: Huffman Coding
 * Solution approach
-  * 
+  * Dict --> heap --> tree map --> encode --> decode
 * Complexity
-  * Time: 
-  * Space: 
+  * Time: For creating the dict, runtime is O(n), where n is the number of characters in the message. Each heappop/heappush for the priority queue requires O(log(p)) runtime, where p is the number of unique characters. So, for all unique characters in dict, runtime is O(p log(p)). However, total number of characters/punctuations/numbers is fixed in English languate, so this runtime may be considered constant. In such case, the runtime will be O(n+m), where n is the number of characters in the message for encoding, and m is the number of bits in the message to be decoded.
+  * Space: With same argument as in time complexity, the space required for the dict may considered constant. So, space complexity will be O(n+m) for encoding and decoding.
   
 # Problem 4: Active Directory
 * Solution approach
   * 
 * Complexity
-  * Time: 
+  * Time: O(n)
   * Space: 
   
 # Problem 5: Blockchain
