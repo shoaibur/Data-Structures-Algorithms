@@ -45,3 +45,11 @@ def binary_search(nums, target, position=None):
 # https://leetcode.com/problems/search-in-rotated-sorted-array/
 # https://leetcode.com/problems/missing-element-in-sorted-array/
 
+# 3. Simple Binary Search
+# https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+# https://leetcode.com/problems/missing-element-in-sorted-array/
+# https://leetcode.com/problems/peak-index-in-a-mountain-array/
+# https://leetcode.com/problems/h-index-ii/
+# https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+# https://leetcode.com/problems/first-bad-version/
+
