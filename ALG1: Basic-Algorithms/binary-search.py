@@ -1,3 +1,8 @@
+# Binary search:
+# 1) With no repeatition
+# 2) With repeats, find the index of the first occurance
+# 3) With repeats, find the index of the last ocuurance
+
 def binary_search(nums, target, position=None):
     lo, hi = 0, len(nums)-1
     indx = -1
@@ -5,12 +10,12 @@ def binary_search(nums, target, position=None):
         mid = lo + (hi - lo) // 2
         if target == nums[mid]:
             indx = mid
-            if position == 'first':
+            if position == 'first': # 2
                 hi = mid - 1
-            elif position == 'last':
+            elif position == 'last': # 3
                 lo = mid + 1
             else:
-                return indx
+                return indx # 1
         elif target < nums[mid]:
             hi = mid - 1
         else:
