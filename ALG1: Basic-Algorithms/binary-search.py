@@ -21,3 +21,17 @@ def binary_search(nums, target, position=None):
         else:
             lo = mid + 1
     return indx
+
+
+# Common binary search problems
+
+# 1. Problems where its Difficult to figure out if Binary Search can be applied.
+# There are patterns of problems where its little difficult to figure out if binary search can be applied.
+# There would be a given array of length (n) and we need to find minimum which satifies contraint on array.
+# Runtime of these are normally nLog(m).
+
+# https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+# https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/
+# https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+# https://leetcode.com/problems/koko-eating-bananas/
+# https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
