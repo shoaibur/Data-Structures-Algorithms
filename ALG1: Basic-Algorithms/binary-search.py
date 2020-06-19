@@ -53,3 +53,10 @@ def binary_search(nums, target, position=None):
 # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 # https://leetcode.com/problems/first-bad-version/
 
+# 4. Using C++ STL upper bound for binary search
+# https://leetcode.com/problems/time-based-key-value-store/
+# https://leetcode.com/problems/online-election/
+# https://leetcode.com/problems/random-pick-with-weight/
+# https://leetcode.com/problems/find-right-interval/
+
+
