@@ -59,4 +59,5 @@ def binary_search(nums, target, position=None):
 # https://leetcode.com/problems/random-pick-with-weight/
 # https://leetcode.com/problems/find-right-interval/
 
-
+# 5. Binary search based on condition on 2 arrays
+# https://leetcode.com/problems/median-of-two-sorted-arrays/
