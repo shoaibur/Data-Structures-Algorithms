@@ -35,3 +35,13 @@ def binary_search(nums, target, position=None):
 # https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 # https://leetcode.com/problems/koko-eating-bananas/
 # https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+
+
+# 2. Tricky Binary Search
+# There are multiple conditions we need to figure out if we need to select left or if we need to select right.
+
+# https://leetcode.com/problems/find-peak-element/
+# https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+# https://leetcode.com/problems/search-in-rotated-sorted-array/
+# https://leetcode.com/problems/missing-element-in-sorted-array/
+
