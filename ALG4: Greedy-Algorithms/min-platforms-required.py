@@ -16,8 +16,6 @@ def min_platforms(arrival, departure):
     """
     :param: arrival - list of arrival time
     :param: departure - list of departure time
-    TODO - complete this method and return the minimum number of platforms (int) required
-    so that no train has to wait for other(s) to leave
     """
     arrival.sort()
     departure.sort()
@@ -40,3 +38,5 @@ def min_platforms(arrival, departure):
             count -= 1
     
     return max_count
+# Test
+min_platforms(arrival,departure) # 3
