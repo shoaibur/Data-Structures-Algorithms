@@ -11,3 +11,32 @@
 # arrival = [900,  940, 950,  1100, 1500, 1800]
 # departure = [910, 1200, 1120, 1130, 1900, 2000]
 # Expected output: Minimum number of platforms required = 3
+
+def min_platforms(arrival, departure):
+    """
+    :param: arrival - list of arrival time
+    :param: departure - list of departure time
+    TODO - complete this method and return the minimum number of platforms (int) required
+    so that no train has to wait for other(s) to leave
+    """
+    arrival.sort()
+    departure.sort()
+    events = []
+    i, j = 0, 0
+    while i < len(arrival) and j < len(departure):
+        if arrival[i] < departure[j]:
+            events.append('arrival')
+            i += 1
+        else:
+            events.append('departure')
+            j += 1
+    count = 0
+    max_count = 0
+    for event in events:
+        if event == 'arrival':
+            count += 1
+            max_count = max(max_count, count)
+        else:
+            count -= 1
+    
+    return max_count
