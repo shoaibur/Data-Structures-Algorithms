@@ -1,3 +1,8 @@
+# Starting from the number 0, find the minimum number of operations required to reach a 
+# given positive target number. You can only use the following two operations:
+#  1. Add 1
+#  2. Double the number
+
 def min_operations(target):
     """
     Return number of steps taken to reach a target number
@@ -12,3 +17,6 @@ def min_operations(target):
             target = target - 1
         operation += 1
     return operation
+
+# Test
+min_operations(69) # 9
