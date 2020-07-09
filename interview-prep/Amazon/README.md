@@ -18,114 +18,115 @@
 Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5WgoCM_OX0YB&index=15&t=0s
 
 ### i. Team/time management (positive and negative)
-1) Tell me about a time when you were not able to meet a time commitment. What prevented you from meeting it? What was the outcome and what did you learn from it?
+1) Tell me about a time when you were not able to meet a time commitment. What prevented you from meeting it? What was the outcome and what did you learn from it? ```diff -(Customer obsession; Innovation and simplify; Deliver results)```
 * Current role - two duties.
-2) Describe a long-term project you managed. How did you keep everything moving along in a timely manner?
+2) Describe a long-term project you managed. How did you keep everything moving along in a timely manner? (Ownership; Invent and simplify; Dive deep; Deliver results)
 * PhD project -- set goals for next 6 months -- review progress with committee members -- change as needed -- hire interns for followup experiments.
-3) Give me an example of a time when you set a goal and were able to meet or achieve it.
+3) Give me an example of a time when you set a goal and were able to meet or achieve it. (Ownership; Deliver results; Think big)
+* TSOH model in first 6 months
 * Get PhD before 2020 -- motivated password 201x -- PhD 12/19 -- need to publish.
 * GitHub -- no 3 consecutive days until finishing DSA nano-degree.
 
 ### ii. Adaptation
-4) Tell me about a time you had to quickly adjust your work priorities to meet changing demands.
+4) Tell me about a time you had to quickly adjust your work priorities to meet changing demands. (Customer obsession; Learn and be curious; Earn trust)
 * Meeting stakeholders, 4 sections, I was working on 3rd section but started working on 1st section to meet stakeholders’ demand.
-* Cultural shift from BD to US.
-* From school to industry -- daily standup, sprint, so couldn't be a freelancer.
-* WFH during the pandemic.
 
 ### iii. Team / decision
-5) An example when you had to push back to HQ or challenged a decision.
+5) An example when you had to push backs to HQ or challenged a decision. (Are right, a lot)
 * Current role - Fully-automated vs. semi-automated (with involvement of subject level experts)
-6) Tell me about the toughest decision you have had to make in the past six months.
-* Career: Facebook perception research position vs. looking for a software development (never regret like before, EE vs. CS)
+6) Tell me about the toughest decision you have had to make in the past six months. (Are right, a lot; Think big; Deliver results; Innovation and simplify)
+* Traditional training vs. innovative training of DL
 * Personal: Family - stop communication with a person
-7) Tell me about a decision that you regret.
+* Career: Facebook perception research position vs. looking for a software development
+7) Tell me about a decision that you regret. (Learn and be curious; Dive deep)
 * EEE vs. CS
 
 ### iv. Team/leadership
-8) What did you do when you needed to motivate a group of individuals?
+8) What did you do when you needed to motivate a group of individuals? (Dive deep; Think big; Earn trust)
 * Social work (scholarship, free education), PhD + Lead prayer + Religious scholar
-9) Tell me about a time you stepped up into a leadership role.
-* Math Olympiad, led family during a crisis, , captained cricket team
+9) Tell me about a time you stepped up into a leadership role. (Are right, a lot; Earn trust)
+* Math Olympiad, led family during a crisis, captained cricket team
 
 ### v. Team / communication and negotiation
-10) Do you collaborate well?
+10) Do you collaborate well? (Ownership; Insist to highest standard)
 * Yes. Current role, software development, initially alone, then involved other member, teams, companies. At least 7 teams across the globe is working together to develop it and I’m leading this.
-11) Describe a situation when you negotiated with others in your organization to reach agreement.
+11) Describe a situation when you negotiated with others in your organization to reach agreement. (Insist to highest standard; Innovate and simplify; Deliver results)
 * Current software development, showed the value, negotiated for more resources
 * Meeting with stakeholders, two weeks, model I used in school, convinced team with results, convinced stakeholders in two weeks.
 
 ### vi. Team/coworkers
-12) We have all had to work with people that don’t like us. How do you deal with someone that doesn’t like you?
+12) We have all had to work with people that don’t like us. How do you deal with someone that doesn’t like you? (Have backbone; Earn trust)
 * Listening is a good strategy; try to understand, give value and respect.
 * Doesn’t like idea - present facts, data if possible.
 * Doesn’t like personally - try to understand psychology, maybe twisting my personality/behavior/tone could mitigate the issues.
-13) We all make mistakes we wish we could take back. Tell me about a time you wish you’d handled a situation differently with colleague.
+13) We all make mistakes we wish we could take back. Tell me about a time you wish you’d handled a situation differently with colleague. (Insist to highest standard)
 * Transition from JHU to BCM, eventually smooth, but I wish I could make it even better, specifically handed over the project to a student instead of just documenting. Given my supervisor was helping me, I could push him to hire a new student before I left.
-14) The last time you had to apologize.
+14) The last time you had to apologize. (Ownership; Bias for action)
 * To my team; couldn’t join a weekly team meeting, had go to doctor with an urgent appointment.
 
 ### vii. Team/conflict
-15) Give me an example of a time you faced conflict while working on a team. How did you handle that?
+15) Give me an example of a time you faced conflict while working on a team. How did you handle that? (Ownership; Learn and be curious)
 * Rice course project, initial discussion about a general approach, data preparation + model architecture, run models in hpc cluster; I was not happy, talked to him to understand if he did’t want to work or can’t or busy. He was busy so don’t need to do course assignment, I also implemented other models so he can tune the parameters. This approach worked well, our model became the best model.
-16) Tell me about a time when received negative feedback from you manager. How did you responded?
+16) Tell me about a time when received negative feedback from you manager. How did you responded? (Earn trust; Dive deep)
 * No official feedback at my current role; previous role: IDP - mathematics/computation poorly scored, met and discussed his reasoning; given my background, I realized his expectation was higher, specifically I could contribute in other’s projects. I understood and acted accordingly, and during introduction of thesis defense, he said that I was one of the best mathematicians he had ever seen. So, I believe my response worked out.
 
 ### viii. Problem solving
-17) Tell me about a time when you missed an obvious solution to a problem.
+17) Tell me about a time when you missed an obvious solution to a problem. (Learn and be curious)
 * Renamed data files, so missing when loading.
-18) A time when you faced a problem that had multiple possible solutions.
+18) A time when you faced a problem that had multiple possible solutions. (Think big; Innovate and simplify)
 * Current role - need to deal in a regular basis, e.g. MTL
-19) Tell me about a time when you came up with a new approach to a problem.
+19) Tell me about a time when you came up with a new approach to a problem. (Innovate and simplify; Think big)
 * Signal processing algorithm, slow to faster training method, design a microprocessor
-20) Describe a time when you anticipated potential problems and developed preventive measures.
+20) Describe a time when you anticipated potential problems and developed preventive measures. (Innovate and simplify; Deliver results; Earn trust)
+* Saving training data seed labels
 * Driving to Seattle, tire/tools, snow/chain, extra oil, food, pillow, blanket.
-21) Describe a situation in which you found a creative way to overcome an obstacle.
+21) Describe a situation in which you found a creative way to overcome an obstacle. (Innovate and simplify)
 * Current role - MTL, VDS model training slow to faster method.
 
 ### ix. Strategy / data
-22) How have you leveraged data to develop a strategy?
+22) How have you leveraged data to develop a strategy? (Dive deep; Learn and be curious)
 * Research on hand stimulation at 16 locations, fascinated but skeptical, measured output data, changed strategy to solve the same research question.
-23) A time when you were 75% through a project and you had to pivot strategy.
+23) A time when you were 75% through a project and you had to pivot strategy. (Customer obsession; Bias for action)
 * PhD project -- forward encoding model -- debate 5th year -- analyzed and showed how my work was out of debate.
-24) Tell me about a time when you to choose between technologies for a project.
-* Python vs. Matlab --> based on applicability data
+24) Tell me about a time when you to choose between technologies for a project. (Think big; Innovate and simplify)
+* Python vs. Matlab --> based on applicability data; long-term vs. short-term
 * Psychophysics vs. fMRI
-25) Tell me about a time you had to deal with ambiguity.
+25) Tell me about a time you had to deal with ambiguity. (Ownership; Are right, a lot)
 * Cricket vs. engineering
 * JHU MS vs. family
 * Communicate, predict future and be confident taking risks, embrace change/be adaptive/flexible.
 
 ### x. Innovation
-26) What’s the most innovative new idea that you have implemented?
+26) What’s the most innovative new idea that you have implemented? (Innovate and simplify)
 * Frequency tuning in the brain --> NIH, NSF, monkey lab, publications.
 * DL model training in the fly.
 
 ### xi. Ownership principle
-27) Describe a time when you sacrificed short-term goals for long-term success.
+27) Describe a time when you sacrificed short-term goals for long-term success. (Bias for action; Think big; Ownership)
 * US PhD to internship at Mathworks --> 
-28) Provide an example of when you personally demonstrate ownership.
+28) Provide an example of when you personally demonstrate ownership. (Ownership)
+* Bug in the data processing steps;
 * Math Olympiad, US PhD to EU, JHU to BCM, DL model training
 
 ### xii. Strength
-29) What’s your greatest strength?
-* Keep chasing for something that I see potential, e.g. IELTS, but not forever, I understand when to stop e.g., MIT.
-30) What’s your biggest weakness?
+29) What’s your greatest strength? (Insist highest standard; Think big)
+* Keep chasing for something big, e.g. IELTS, but not forever.
+30) What’s your biggest weakness? (Dive deep; Learn and be curious)
 * Not well organized, so divide bigger problems into smaller ones; getting better.
 
 ### xiii. Client
-31) We all deal with difficult customers from time to time. Tell me about a challenging client-facing situation and how you handled it?
+31) We all deal with difficult customers from time to time. Tell me about a challenging client-facing situation and how you handled it? (Customer obsession)
 * Rice-2x fails, job, she will loose the job offer, giving no questions (unethical), offer private teaching.
-32) How do you show customer obsession?
-* Service to India - working from park.
+32) How do you show customer obsession? (Customer obsession)
+* Service to India – bug in the data processing, working from park.
 * Student's grade - checking-rechecking exam papers.
 * Teaching DSP and graded 50% A+.
 
 ### xiv. Failure
 33) Tell me about a time you recovered from a difficult situation.
-* Led family from a critical situation.
-34) Tell me about a time you failed and what you learned from it.
-* Current project every two months, we meet with stakeholders. Two responsibilities: (i) developing software (ii) use existing method to train the models. Shell is envisioning that the software I am developing will be the base of digital transformation in the near future, so it is highly accepted around and many teams are adopting it. So, I was enjoying and put most of my efforts on it, and occasionally worked on the second duty. Anyway, I was able to prepare some data and submitted several the model training jobs about a week before our meeting with the stakeholders. At that time, the HPC clusters were so busy, because of the nature of my job, I needed more resources than usual. So, the jobs remained pending for a couple of days and when I got the results, I didn’t have a enough time to analyze because the team needed to prepare everything by a certain time. So, after discussing with the team, we decided to remove the agenda and added the development part. But that was an embarrassment for me, because I failed in very first assignment. 
+* Led family from a critical situation. (Ownership; Bias for action)
+34) Tell me about a time you failed and what you learned from it. (Innovation and simplify; Deliver results)
+* Current project every two months, we meet with stakeholders. Two responsibilities: (i) developing software (ii) use existing method to train the models. Shell is envisioning that the software I am developing will be the base of digital transformation in the near future, so it is highly accepted around and many teams are adopting it. So, I was enjoying and put most of my efforts on it, and occasionally worked on the second duty. Anyway, I was able to prepare some data and submitted several the model-training jobs about a week before our meeting with the stakeholders. At that time, the HPC clusters were so busy, because of the nature of my job, I needed more resources than usual. So, the jobs remained pending for a couple of days and when I got the results, I didn’t have a enough time to analyze because the team needed to prepare everything by a certain time. So, after discussing with the team, we decided to remove the agenda and added the development part, and emphasized the innovation and how it would simplify the workflow. Stakeholders were happy and excited because they were looking for a similar thing for a while. However, my learning was deliver results in time.
 
 ### xv. General
 35) Why Amazon?
@@ -136,3 +137,4 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 2. Amazon always brings out new products/ideas/services. What are the next great innovation your team is focusing right now?
 3. You expectedly have been working on multiple products/services, but what is the first thing you would like me to concentrate on this role?
 4. Could you please one project/success that you feel proud of in this COVID-19 situation, i.e. how do the team respond to any unprecedented situation?
+
