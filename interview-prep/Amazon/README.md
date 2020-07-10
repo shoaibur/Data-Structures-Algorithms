@@ -23,6 +23,7 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 2) Describe a long-term project you managed. How did you keep everything moving along in a timely manner? ```Ownership; Invent and simplify; Dive deep; Deliver results```
 * PhD project -- set goals for next 6 months -- review progress with committee members -- change as needed -- hire interns for followup experiments.
 3) Give me an example of a time when you set a goal and were able to meet or achieve it. ```Ownership; Deliver results; Think big```
+* Facebook internship project, set goal to deliver a product
 * TSOH model in first 6 months
 * Get PhD before 2020 -- motivated password 201x -- PhD 12/19 -- need to publish.
 * GitHub -- no 3 consecutive days until finishing DSA nano-degree.
@@ -33,9 +34,10 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### iii. Team / decision
 5) An example when you had to push backs to HQ or challenged a decision. ```Are right, a lot```
+* Internship - Natural stasitics vs. product delivery
 * Current role - Fully-automated vs. semi-automated (with involvement of subject level experts)
 6) Tell me about the toughest decision you have had to make in the past six months. ```Are right, a lot; Think big; Deliver results; Innovation and simplify```
-* Traditional training vs. innovative training of DL
+* Full vs. semi-automation; Traditional training vs. innovative training of DL
 * Personal: Family - stop communication with a person
 * Career: Facebook perception research position vs. looking for a software development
 7) Tell me about a decision that you regret. ```Learn and be curious; Dive deep```
@@ -52,6 +54,7 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 * Yes. Current role, software development, initially alone, then involved other member, teams, companies. At least 7 teams across the globe is working together to develop it and I’m leading this.
 11) Describe a situation when you negotiated with others in your organization to reach agreement. ```Insist to highest standard; Innovate and simplify; Deliver results```
 * Current software development, showed the value, negotiated for more resources
+* Internship - naturals statistics vs product delivery
 * Meeting with stakeholders, two weeks, model I used in school, convinced team with results, convinced stakeholders in two weeks.
 
 ### vi. Team/coworkers
@@ -87,11 +90,13 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 22) How have you leveraged data to develop a strategy? ```Dive deep; Learn and be curious```
 * Research on hand stimulation at 16 locations, fascinated but skeptical, measured output data, changed strategy to solve the same research question.
 23) A time when you were 75% through a project and you had to pivot strategy. ```Customer obsession; Bias for action```
+* GoM vs Brazil model deployment
 * PhD project -- forward encoding model -- debate 5th year -- analyzed and showed how my work was out of debate.
 24) Tell me about a time when you to choose between technologies for a project. ```Think big; Innovate and simplify```
 * Python vs. Matlab --> based on applicability data; long-term vs. short-term
 * Psychophysics vs. fMRI
 25) Tell me about a time you had to deal with ambiguity. ```Ownership; Are right, a lot```
+* Research on hand stimulation -- not aligned with hypothesis
 * Cricket vs. engineering
 * JHU MS vs. family
 * Communicate, predict future and be confident taking risks, embrace change/be adaptive/flexible.
@@ -116,9 +121,11 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### xiii. Client
 31) We all deal with difficult customers from time to time. Tell me about a challenging client-facing situation and how you handled it? ```Customer obsession```
+* One stakeholder was not happy becasue of deviation, won't support, showed data/fact from other.
 * Rice-2x fails, job, she will loose the job offer, giving no questions (unethical), offer private teaching.
 32) How do you show customer obsession? ```Customer obsession```
-* Service to India – bug in the data processing, working from park.
+* Service to India – bug in the data processing, developer (0/1), we (-1/1), somehow they got the previous version; working from park.
+* Transfering students from to another university.
 * Student's grade - checking-rechecking exam papers.
 * Teaching DSP and graded 50% A+.
 
