@@ -8,3 +8,5 @@ class Solution:
             else:
                 d[num] = i
         return (-1, -1)
+
+    
