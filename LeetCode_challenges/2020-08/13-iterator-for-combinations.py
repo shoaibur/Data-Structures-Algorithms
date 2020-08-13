@@ -3,21 +3,25 @@ class CombinationIterator:
     def __init__(self, characters: str, combinationLength: int):
         # self.combinations = itertools.combinations(characters, combinationLength)
         # self.combinations = [''.join(t) for t in self.combinations]
-        # self.pointer = -1
+        # self.pointer = -1        
         
-        self.combinations = []
+        def generate_combinations(s, k):
+            combinations = []
+            
+            q = collections.deque()
+            q.append(('', 0))
+            
+            while q:
+                temp, curr = q.popleft()
+                if len(temp) == k:
+                    combinations.append(temp)
+
+                for i in range(curr, len(characters)):
+                    q.append((temp+s[i], i+1))
+            return combinations
+        
+        self.combinations = generate_combinations(characters, combinationLength)
         self.pointer = -1
-        
-        q = collections.deque()
-        q.append(('', 0))
-        while q:
-            temp, curr = q.popleft()
-            if len(temp) == combinationLength:
-                self.combinations.append(temp)
-                
-            for i in range(curr, len(characters)):
-                q.append((temp+characters[i], i+1))
-        
 
     def next(self) -> str:
         if self.hasNext():
